@@ -266,6 +266,7 @@ Differences:
 # 11) Exception means? Type of Exceptions?
 
 In languages like C, which do not have built-in exception handling, errors must be handled manually using return codes or flags. For example, functions often return special values (like -1 or NULL) to indicate failure, and the programmer must check these values after every function call. This makes the code harder to read and maintain. Additionally, recovering from errors requires explicit handling, such as manually freeing resources before exiting, increasing the risk of memory leaks and undefined behavior.
+
 In java this problem is solved by **Exception Handling**. An exception is an **unexpected event** that occurs during program execution, **disrupting the normal flow** of instructions. In Java, exceptions help handle errors in a controlled way instead of crashing the program. In java the exceptions handled in **Try-Catch** blocks. We write the code in try block as if nothing wrongs will happen, and if something wrong happens it will change its flow to catch block, in which we can check what went wrong and act accordingly.
 
 Types of Exceptions:
